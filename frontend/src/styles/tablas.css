@@ -1,0 +1,45 @@
+/* Contenedor principal */
+.facturas-container {
+    margin-top: 4rem;
+    padding: 1rem;
+  }
+  
+  /* Tabla */
+  .facturas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  /* Estilos para el encabezado de la tabla */
+  .facturas-table thead tr {
+    background-color: #50ba50;
+  }
+  
+  .facturas-table th {
+    border: 1px solid #9eea9e;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Estilos para las filas */
+  .facturas-table td {
+    border: 1px solid #9eea9e;
+    padding: 8px;
+  }
+  
+  /* Alternar colores para las filas */
+  .facturas-table tbody tr:nth-child(even) {
+    background-color: #9eea9e;
+  }
+  
+  .facturas-table tbody tr:nth-child(odd) {
+    background-color: #e1f1e1;
+  }
+
+  /* Oscurecer fila al pasar el mouse */
+.facturas-table tbody tr:hover {
+    background-color: #b8c7f5; /* Color de fondo oscuro */
+    cursor: pointer; /* Cambiar el cursor a un puntero */
+  }
+  
